@@ -3,13 +3,10 @@ package com.scala.dao
 /**
   * Created by CNSVCSHADM on 2017/5/25.
   */
-class db_manage {
-
-}
-
 
 import slick.ast.ColumnOption.PrimaryKey
 import slick.jdbc.OracleProfile.api._
+import
 
 import scala.concurrent.ExecutionContext.Implicits.global
 
